@@ -1,6 +1,6 @@
 provider "google" {
 	credentials = "${file("credx.json")}"
-	project = "useful-approach-236817"
+	project = "YOUR-PROJECT-ID"
 	region = "asia-southeast1"
 	zone = "asia-southeast1-b"
 }
